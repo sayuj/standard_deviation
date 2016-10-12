@@ -1,5 +1,3 @@
-require 'enumerable/standard_deviation/version'
-
 module Enumerable
   def sum
     inject(0){|sum, i| sum + i }
