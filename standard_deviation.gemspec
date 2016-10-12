@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'standard_deviation'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'standard_deviation'
+  spec.name          = 'standard-deviation'
   spec.version       = StandardDeviation::VERSION
   spec.authors       = ['Sayuj Othayoth']
   spec.email         = ['sayuj@othayoth.in']

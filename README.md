@@ -7,7 +7,7 @@ Ruby gem to find standard deviation of given values.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'standard_deviation'
+gem 'standard-deviation'
 ```
 
 And then execute:
@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install standard_deviation
+    $ gem install standard-deviation
 
 ## Usage
 
