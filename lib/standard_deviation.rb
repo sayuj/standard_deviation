@@ -1,5 +1,5 @@
 require 'enumerable/standard_deviation/standard_deviation'
 
 module StandardDeviation
-  VERSION = '0.1.0'
+  VERSION = '0.1.1'
 end

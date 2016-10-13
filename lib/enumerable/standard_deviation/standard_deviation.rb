@@ -16,4 +16,15 @@ module Enumerable
   def standard_deviation
     Math.sqrt(sample_variance)
   end
+  alias_method :std_dev, :standard_deviation
+
+  def max_standard_deviation
+    mean + standard_deviation
+  end
+  alias_method :max_std_dev, :max_standard_deviation
+
+  def min_standard_deviation
+    mean - standard_deviation
+  end
+  alias_method :min_std_dev, :min_standard_deviation
 end
